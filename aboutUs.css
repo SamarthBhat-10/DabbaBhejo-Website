@@ -1,0 +1,41 @@
+.jumbotron{
+	background: url("header.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+body{
+	background: #ffb347;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.flexing{
+	font-size: 1.3rem;
+}
+
+p.text-primary{
+	font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: rgb(255,255,255);
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+	color: rgb(247, 184, 10);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: rgb(247, 184, 10);
+}
+
+.fonts{
+	font-family: 'Architects Daughter', cursive;
+	font-weight: 600;
+}
+
+.fonts2{
+	font-family: 'Raleway', sans-serif;
+}

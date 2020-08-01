@@ -1,0 +1,33 @@
+.navbar-dark .navbar-nav .nav-link{
+	color: rgb(255,255,255);
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+	color: rgb(247, 184, 10);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: rgb(247, 184, 10);
+}
+
+body{
+	background: url("background.jpg");
+	background-size: cover;
+	background-position: center;
+	/*background-repeat: no-repeat;*/
+}
+
+label{
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.3rem;
+}
+
+.container h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+form{
+	font-family: 'Raleway', sans-serif;
+}
